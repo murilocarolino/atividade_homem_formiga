@@ -1,0 +1,61 @@
+body{
+    background-image: url(./background.png);
+    background-size: cover;
+    margin: 60px;
+    height: 50px;
+
+}
+
+header{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+
+
+}
+.info__text{
+    font-size: 15px;
+    width: 350px;
+
+    font-family:'Righteous', cursive;
+    font-family:'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 60fr 1fr;
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    width: 20px;
+    height: 10px;
+    align-items: center;
+    justify-content: flex-end;
+    justify-content: space-between;
+    row-gap: 52px;
+}
+.footer{
+    margin-inline-end: 40px;
+    height: 10vw;
+}
+.trailer1{
+    margin-inline-end: 40px;
+    height: 10vw;
+}
+.trailer2{
+    margin-inline-end: 40px;
+    height: 10vw;
+}
+.trailer3{
+    margin-inline-end: 40px;
+    height: 10vw;
+}
+.logo{
+    height: 10vw;
+}
